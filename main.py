@@ -8,7 +8,7 @@ file_content = ""
 def load_file_content():
     global file_content
     try:
-        with open('file.txt', 'r') as file:
+        with open('files/file.txt', 'r') as file:
             file_content = file.read()
     except FileNotFoundError:
         file_content = "File not found."
