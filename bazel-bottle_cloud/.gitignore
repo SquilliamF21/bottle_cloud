@@ -1,0 +1,4 @@
+/bazel-bin
+/bazel-bottle_cloud
+/bazel-out
+/bazel-testlogs
